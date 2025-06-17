@@ -1,1 +1,30 @@
 @import "tailwindcss";
+
+/* TIPOGRAFÍAS:: */
+/*C02: Añadir Tipografía */
+@font-face {
+  font-family: "Neco";
+  src: url("/fonts/Neco-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Sora";
+  src: url("/fonts/Sora-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+::selection {
+  background-color: #49ccec; 
+  color: #73278a;
+}
+
+body {
+  font-family: "Sora", sans-serif;
+  background: radial-gradient(at 23% 47%, #dfe2fe 0px, transparent 50%), radial-gradient(at 48% 39%, #b1cbfa 0px, transparent 50%), radial-gradient(at 27% 34%, #8e98f5 0px, transparent 50%), radial-gradient(at 85% 10%, #7874f2 0px, transparent 50%), #dfe2fe;
+    
+}
